@@ -1,0 +1,32 @@
+.projects {
+    flex: 1;
+    margin-top: 50px; /* Added vertical margin to create space above the projects section */
+    margin-left: 0; /* Reset margin-left to zero or adjust as needed */
+    font-family: 'Montserrat';
+  }
+  
+  .projects h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  
+  .projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .projects li {
+    margin: 15px 0; /* Increased margin for more vertical space */
+    text-decoration: underline;
+  }
+  
+  .projects a {
+    color: #d3d3d3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .projects a:hover {
+    color: #ffffff;
+  }

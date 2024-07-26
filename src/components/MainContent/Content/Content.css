@@ -1,0 +1,86 @@
+.content {
+  color: #e5e5e5;
+}
+
+.content h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem; /* Size for the main title */
+  margin: 0 0 10px;
+}
+
+.content p {
+  font-family: 'Montserrat';
+  font-weight: 400; /* Thinner font weight */
+  line-height: 1.6;
+  margin: 10px 0; /* Additional margin for better spacing */
+}
+
+.content h2 {
+  margin-top: 20px;
+  font-size: 2rem; /* Increased font size for the project title */
+}
+
+.content h3 {
+  margin-top: 20px; /* Adjusted margin for better spacing */
+  font-size: 1.2em; /* Smaller font size for the technologies header */
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.tech-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.link {
+  font-size: 1.2em;
+  color: #e5e5e5; /* Same color as the other links */
+  text-decoration: underline;
+}
+
+.certificates-header {
+  font-size: 2em; /* Larger font size for the certificates header */
+  margin-top: 30px;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.certificates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certificate {
+  margin-bottom: 10px;
+}
+
+.certificate h5 {
+  margin: 0 0 5px;
+  font-size: 0.9em; /* Smaller font size for certificate titles */
+}
+
+.certificate p {
+  margin: 0;
+  font-size: 0.8em; /* Smaller font size for certificate descriptions */
+}
+
+.certificate-link {
+  color: #e5e5e5;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.certificate-link:hover {
+  color: #ffffff;
+}

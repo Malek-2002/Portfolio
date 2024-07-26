@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* WelcomePage.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: #151515;
+  color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  perspective: 1000px; /* Adds depth to the 3D effect */
+}
+
+.card-container {
+  display: inline-block;
+  transition: transform 0.1s ease-in-out; /* Faster rotation transition */
+  transform-style: preserve-3d; /* Ensures that child elements are transformed in 3D */
+}
+
+.rotate {
+  transform: rotateY(180deg); /* Rotate 180 degrees around the Y-axis */
+}
